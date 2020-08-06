@@ -4,12 +4,13 @@ Problem
 2. Use Redis server to store these values
 3. Write a client program to call these API’s
 
-This Repository consists of two application: 
-1st folder-Client ClientServer: Client program which uses REST API's 
+This Repository consists of two application 
+
+1st folder Client ClientServer: Client program which uses REST API's 
     Application is a basic java program which uses Http libraries to connects 
     with the local host on port 8081
     
-2nd folder-RestServerClientWithRedis: Spring Boot application which creates
+2nd folder RestServerClientWithRedis: Spring Boot application which creates
     REST API using Redis server to store these data.
     
 How to Run:
@@ -35,9 +36,9 @@ Features:
         to create/add/delete/update customer information. The follow are the 
         urls for each actions
         
-   To Test ALL API use Advance REST Client or POSTMAN (ios)
+   To Test ALL API use Advance REST Client or POSTMAN 
    (I have used Advance REST Client to test my project)
-   Method:
+   
         1. GET: localhost:8081/customer/add/{id}/{name}/{email}/{enrole}
             Fields id = customer Id,
                   name= customer full name,
